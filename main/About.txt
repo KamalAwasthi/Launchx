@@ -1,0 +1,39 @@
+
+**************************************************************************************************
+LAUNCH-X
+    -by, KAMAL AWASTHI
+A DIRECT LAUNCHER WITH CUSTOMIZABLE BUTTON FOR YOUR PERSONAL USE
+WRITTEN ON AUTOHOTKEY SCRIPT
+
+  I have a lot of fun coding this, and hope you will
+  enjoy using it too. Feel free to drop me an email with
+  your comments and feedback at: kamalawasthi97 (*a.t*) gmail.com
+**************************************************************************************************
+
+:HOW TO LAUNCH?
+1)THE SHORTCUT FOR THE APP IS [WINDOW_BUUTON]+[P]
+2)SOME OF THE DEFAULT BUTTONS ARE ALREADY ADDED 
+3)IF YOU WANT TO ADD SOME OF THE SHORTCUT AS PER YOUR REQUIRMENT ,YOU CAN ADD WITH +ADD_NEW BUTTON GIVEN AT THE        BOTTOM OF THE APP(ASIDE THE EXIT_APP BUTTON).
+4) ON CLICKING THE _ADD BUTTON YOU WILL BE ASKED FOR THE BUTTON NAME(NAME OF THE BUTTON YOU WANT TO BE DISPLAYED ON APP WINDOW).
+5)ENTER THE BUUTON NAME AND PRESS [ENTER].
+6)FILE? OR FOLDER?,CHOOSE ACCORDDINGLY. 
+7)SELECT THE FILE/FOLDER.
+8)THE APP WILL BE CLOSED.RELAUNCH THE APP WITH THE SHORTCUT.
+9)THE NEW BUTTON IS ADDED.
+10)IT'S LIKE "WOW! HOW FUN!!!"
+
+
+**********************************************
+   DRAWBACK(S):
+**********************************************
+
+1. you can not delete any button once you added one, so please select wisely.
+
+
+
+**************************************
+EXPECTED IMPROVEMENTS
+**************************************
+1. The one new Delete Button should be added soon.you can expect it in very near future.
+
+

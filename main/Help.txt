@@ -1,0 +1,20 @@
+*********************
+ADDING TO STARTUP:
+*********************
+1.copy the shortcut of the 'launch_the_launcher.ahk' file.
+2.go to Start->All Programes->Startup
+3.Right click on the Startup and select 'open'
+4.a new window will open, just copy the shortchuts of the 'ahk' files their.
+5. all done!!!!! , next time you boot your system the script will be running.
+
+***************************
+ADDING THE NEW BUTTON:
+***************************
+
+1. on clicking the +Add_New Button,a new window will be opened.
+2. enter the name of the button you want to make (or you wanna see on launcher).
+3.  on pressing the [enter] , new window will open.Choose 1 for file and 2 for folder.
+4. select the file/folder 
+5. app will get closed
+6. relaunch the app with the shortcut.
+7.the new button shouild be their.
