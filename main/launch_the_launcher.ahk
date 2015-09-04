@@ -1,1 +1,1 @@
-﻿#p::Run,launcher.ahk
+#n::Run,launcher.ahk
