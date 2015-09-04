@@ -3,7 +3,7 @@ SHORTCUT
 *********************
 
 shortcut for the app is:
-[window button]+[p]
+[window button]+[n]
 
     OR
  you can also launch the app by :
