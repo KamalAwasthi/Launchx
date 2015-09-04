@@ -1,10 +1,18 @@
 ﻿/*
 **************************************************************************************************
-LAUNCH-X-by, KAMAL AWASTHI
+LAUNCH-X(version:1.0.1)
+-by, KAMAL AWASTHI
 A DIRECT LAUNCHER WITH CUSTOMIZABLE BUTTON FOR YOUR PERSONAL USE
 WRITTEN ON AUTOHOTKEY SCRIPT
 **************************************************************************************************
 */ 
+/*
+**********************************************************************************************************
+What's New?
+1. Minor bug Fixes.
+2. Wordpad Button was redirecting to the MS-paint.It's fixed now.
+*********************************************************************************************************
+*/
 
 /*
 **************************************************************************************************
@@ -100,7 +108,7 @@ Gui,Add,Button,gAdd  X20 Y%temp%,+&Add_New                  ;ADDING THE +ADD BUT
 Gui,Add,Button,gClose  X130 Y%temp%,&Exit_App                 ;ADDING THE CLOSE BUTTON
 
 ;Gui +Resize  ;MAKE THE WINDOW RESIZABLE
-Gui,Show,,Launch-X ;PUTS ALL GUI ON WINDOW
+Gui,Show,,Launch-X_by Kamal Awasthi ;PUTS ALL GUI ON WINDOW
 
 return
 
@@ -140,11 +148,13 @@ Run,%t%
 return
 
 Array2:
-Run,wordpad.exe
+t:=Path[2]
+Run,%t%
 return
 
 Array3:
-Run,mspaint.exe
+t:=Path[3]
+Run,%t%
 return
 
 Array4:
@@ -231,7 +241,7 @@ return
 
 
 Array19:
-g:=Path[`9]
+g:=Path[19]
 Run,%g%
 return
 
