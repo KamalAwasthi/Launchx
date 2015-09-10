@@ -1,6 +1,6 @@
 ﻿/*
 **************************************************************************************************
-LAUNCH-X(version:1.0.1)
+LAUNCH-X(version:1.2.01)
 -by, KAMAL AWASTHI
 A DIRECT LAUNCHER WITH CUSTOMIZABLE BUTTON FOR YOUR PERSONAL USE
 WRITTEN ON AUTOHOTKEY SCRIPT
@@ -11,6 +11,7 @@ WRITTEN ON AUTOHOTKEY SCRIPT
 What's New?
 1. Minor bug Fixes.
 2. Wordpad Button was redirecting to the MS-paint.It's fixed now.
+3.app closes after you launch any application.
 *********************************************************************************************************
 */
 
@@ -145,109 +146,129 @@ return
  Array1:
 t:=Path[1]
 Run,%t%
+ExitApp
 return
 
 Array2:
 t:=Path[2]
 Run,%t%
+ExitApp
 return
 
 Array3:
 t:=Path[3]
 Run,%t%
+ExitApp
 return
 
 Array4:
 t:=Path[4]
 Run,%t%
+ExitApp
 return
 
 Array5:
 g:=Path[5]
 Run,%g%
+ExitApp
 return
 
 Array6:
 g:=Path[6]
 Run,%g%
+ExitApp
 return
 
 Array7:
 g:=Path[7]
 Run,%g%
+ExitApp
 return
 
 Array8:
 g:=Path[8]
 Run,%g%
+ExitApp
 return
 
 Array9:
 g:=Path[9]
 Run,%g%
+ExitApp
 return
 
 Array10:
 g:=Path[10]
 Run,%g%
+ExitApp
 return
 
 
 Array11:
 g:=Path[11]
 Run,%g%
+ExitApp
 return
 
 
 Array12:
 g:=Path[12]
 Run,%g%
+ExitApp
 return
 
 
 Array13:
 g:=Path[13]
 Run,%g%
+ExitApp
 return
 
 Array14:
 g:=Path[14]
 Run,%g%
+ExitApp
 return
 
 
 Array15:
 g:=Path[15]
 Run,%g%
+ExitApp
 return
 
 
 Array16:
 g:=Path[16]
 Run,%g%
+ExitApp
 return
 
 
 Array17:
 g:=Path[17]
 Run,%g%
+ExitApp
 return
 
 
 Array18:
 g:=Path[18]
 Run,%g%
+ExitApp
 return
 
 
 Array19:
 g:=Path[19]
 Run,%g%
+ExitApp
 return
 
 Array20:
 g:=Path[20]
 Run,%g%
+ExitApp
 return
 
 
