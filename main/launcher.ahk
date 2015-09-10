@@ -71,13 +71,13 @@ global count:=0
 */
 
 
-Loop, Read, path.ka                                           ;LOOP TO READ THE BUTTON FILE
+Loop, Read, path.txt                                        ;LOOP TO READ THE BUTTON FILE
 {
     Array.Insert(A_LoopReadLine) 
 }
 
 
-Loop, Read,run.ka                                          ;LOOP TO READ THE PATH FILE
+Loop, Read,run.txt                                       ;LOOP TO READ THE PATH FILE
 {
   Path.Insert(A_LoopReadLine)
 }
@@ -300,14 +300,14 @@ FileAppend,
 (
 %OutputVar% 
 
-), path.ka
+), path.txt
 
 
 FileAppend,
 (
 %Path%
  
-), run.ka
+), run.txt
 
 MsgBox You added a new a button. Find it, next time you launch the "launcX"
 ExitApp
