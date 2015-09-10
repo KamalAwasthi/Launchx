@@ -1,19 +1,11 @@
-﻿/*
+
+/*
 **************************************************************************************************
-LAUNCH-X(version:1.2.01)
--by, KAMAL AWASTHI
+LAUNCH-X-by, KAMAL AWASTHI
 A DIRECT LAUNCHER WITH CUSTOMIZABLE BUTTON FOR YOUR PERSONAL USE
 WRITTEN ON AUTOHOTKEY SCRIPT
 **************************************************************************************************
 */ 
-/*
-**********************************************************************************************************
-What's New?
-1. Minor bug Fixes.
-2. Wordpad Button was redirecting to the MS-paint.It's fixed now.
-3.app closes after you launch any application.
-*********************************************************************************************************
-*/
 
 /*
 **************************************************************************************************
@@ -52,6 +44,12 @@ Menu, MyMenuBar, Add, &Help, :HelpMenu
 ; Attach the menu bar to the window:
 Gui, Menu, MyMenuBar
 
+;set tray icon
+Menu, Tray, Tip, Launch-X
+Menu, Tray, Icon,,,1
+
+
+
 /*
 **************************
  GLOBALS
@@ -72,13 +70,14 @@ global count:=0
 *************************************************
 */
 
-Loop, Read, path.txt                                           ;LOOP TO READ THE BUTTON FILE
+
+Loop, Read, path.ka                                           ;LOOP TO READ THE BUTTON FILE
 {
     Array.Insert(A_LoopReadLine) 
 }
 
 
-Loop, Read,run.txt                                           ;LOOP TO READ THE PATH FILE
+Loop, Read,run.ka                                          ;LOOP TO READ THE PATH FILE
 {
   Path.Insert(A_LoopReadLine)
 }
@@ -109,7 +108,7 @@ Gui,Add,Button,gAdd  X20 Y%temp%,+&Add_New                  ;ADDING THE +ADD BUT
 Gui,Add,Button,gClose  X130 Y%temp%,&Exit_App                 ;ADDING THE CLOSE BUTTON
 
 ;Gui +Resize  ;MAKE THE WINDOW RESIZABLE
-Gui,Show,,Launch-X_by Kamal Awasthi ;PUTS ALL GUI ON WINDOW
+Gui,Show,,Launch-X ;PUTS ALL GUI ON WINDOW
 
 return
 
@@ -260,7 +259,7 @@ return
 
 
 Array19:
-g:=Path[19]
+g:=Path[`9]
 Run,%g%
 ExitApp
 return
@@ -299,16 +298,17 @@ FileSelectFolder,Path, ,3,Select the Folder
 
 FileAppend,        
 (
-
 %OutputVar% 
-), path.txt
+
+), path.ka
 
 
 FileAppend,
 (
+%Path%
+ 
+), run.ka
 
-%Path% 
-), run.txt
-
+MsgBox You added a new a button. Find it, next time you launch the "launcX"
 ExitApp
 return
