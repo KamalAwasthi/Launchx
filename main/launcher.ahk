@@ -45,7 +45,7 @@ Menu, MyMenuBar, Add, &Help, :HelpMenu
 Gui, Menu, MyMenuBar
 
 ;set tray icon
-Menu, Tray, Tip, Launch-X
+Menu, Tray, Tip, Launch-X by Kamal Awasthi
 Menu, Tray, Icon,,,1
 
 
