@@ -21,5 +21,5 @@ Changing the shortcut
 *****************************
 1. You can chnage the shortcut for the Launch-X as per your wish.
 2. you can change that by two methods:
- i) By the shortcut option in the settings menu on the Launch-X      App window.
- ii) By right clicking the Lucnh-X icon on the tray and selecting     the settings.
+ i) By the shortcut option in the settings menu on the Launch-X App window.
+ ii) By right clicking the Lucnh-X icon on the tray and selecting the settings.
