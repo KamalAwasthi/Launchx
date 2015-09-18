@@ -1,4 +1,5 @@
-
+<<<<<<< HEAD
+﻿
 #NoEnv
 #SingleInstance, force
 SetWorkingDir %A_ScriptDir%
@@ -13,4 +14,6 @@ return
 
 GuiClose:
 ExitApp
-
+=======
+#n::Run,launcher.ahk
+>>>>>>> e2366c2e76c1c5e7e470238060a5e575663d0c55

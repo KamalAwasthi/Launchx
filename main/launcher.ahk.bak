@@ -628,4 +628,10 @@ SetBtnTxtColor(HWND, TxtColor) {
       DllCall("Kernel32.dll\FreeLibrary", "Ptr", GDIPDll)
    Return
 }
+=======
+), run.txt
 
+MsgBox You added a new a button. Find it, next time you launch the "launcX"
+ExitApp
+return
+>>>>>>> e2366c2e76c1c5e7e470238060a5e575663d0c55

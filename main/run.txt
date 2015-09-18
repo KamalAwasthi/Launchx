@@ -1,4 +1,4 @@
 notepad.exe
-wordpad.exe
 mspaint.exe
+wordpad.exe
 calc.exe
