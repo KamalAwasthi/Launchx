@@ -1,4 +1,4 @@
-#Please go through Read_me.txt file before start Launching.
+#Please go through Read_Me.txt file before start Launching.
 
 ##Version Release(v2.1.0)
  What's new?
