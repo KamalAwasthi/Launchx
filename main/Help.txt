@@ -1,20 +1,25 @@
 *********************
 ADDING TO STARTUP:
 *********************
-1.copy the shortcut of the 'launch_the_launcher.ahk' file.
+1.Make the shortcut of the 'launch.exe' file.
 2.go to Start->All Programes->Startup
 3.Right click on the Startup and select 'open'
 4.a new window will open, just copy the shortchuts of the 'ahk' files their.
-5. all done!!!!! , next time you boot your system the script will be running.
+5. all done!!!!! , next time you start your system the script to run the launcher will be active. You just need to press the set shortcut and Launch-X will be right there on your screen.
 
 ***************************
 ADDING THE NEW BUTTON:
 ***************************
+1) WANT TO ADD A SHORCUT TO A FOLDER OR ANY FILE.CHOOSE AS PER YOUR NEED.
+2)ANOTHER WINDOW WILL OPEN ASKING THE NAME OF BUTTON.ENTER THE BUTTON NAME AND CLICK OK.
+3)CHOOSE FILE/FOLDER YOU WANT TO ADD A SHORTCUT OF. 
+4)THE NEW BUTTON IS ADDED.
+5)IT'S LIKE, WOW! HOW FUN!!!
 
-1. on clicking the +Add_New Button,a new window will be opened.
-2. enter the name of the button you want to make (or you wanna see on launcher).
-3.  on pressing the [enter] , new window will open.Choose 1 for file and 2 for folder.
-4. select the file/folder 
-5. app will get closed
-6. relaunch the app with the shortcut.
-7.the new button shouild be their.
+*****************************
+Changing the shortcut
+*****************************
+1. You can chnage the shortcut for the Launch-X as per your wish.
+2. you can change that by two methods:
+ i) By the shortcut option in the settings menu on the Launch-X      App window.
+ ii) By right clicking the Lucnh-X icon on the tray and selecting     the settings.

@@ -208,7 +208,7 @@ Gui, 2:Show, w400 h200, New Shortcut
 return
 
 Save:
-Run,launch.exe
+Run,launch_the_launcher.ahk
 Reload
 return
 
