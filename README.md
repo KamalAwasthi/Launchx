@@ -1,8 +1,8 @@
 #Version Release(v2.1.0)
  What's new?
- *A whole new look with improved performance.
- *Better stability and Gui
- *A new window for custom shortcut added.
+ 1. A whole new look with improved performance.
+ 2. Better stability and Gui
+ 3. A new window for custom shortcut added.
 
 
 # Version Release(v 1.2.01)
