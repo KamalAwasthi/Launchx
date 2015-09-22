@@ -1,5 +1,7 @@
 #Please go through Read_Me.txt file before start Launching.
 
+[![Join the chat at https://gitter.im/KamalAwasthi/Launchx](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/KamalAwasthi/Launchx?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
+
 ##Version Release(v2.1.0)
  What's new?
  1. A whole new look with improved performance.
