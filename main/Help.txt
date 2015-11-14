@@ -1,11 +1,11 @@
 *********************
 ADDING TO STARTUP:
 *********************
-1.Make the shortcut of the 'launch.exe' file.
+1.copy the shortcut of the 'launch_the_launcher.ahk' file and 'launcher.ahk'.
 2.go to Start->All Programes->Startup
 3.Right click on the Startup and select 'open'
 4.a new window will open, just copy the shortchuts of the 'ahk' files their.
-5. all done!!!!! , next time you start your system the script to run the launcher will be active. You just need to press the set shortcut and Launch-X will be right there on your screen.
+5. all done!!!!! , next time you boot your system the script will be running.
 
 ***************************
 ADDING THE NEW BUTTON:
@@ -14,12 +14,11 @@ ADDING THE NEW BUTTON:
 2)ANOTHER WINDOW WILL OPEN ASKING THE NAME OF BUTTON.ENTER THE BUTTON NAME AND CLICK OK.
 3)CHOOSE FILE/FOLDER YOU WANT TO ADD A SHORTCUT OF. 
 4)THE NEW BUTTON IS ADDED.
-5)IT'S LIKE, WOW! HOW FUN!!!
+5)IT'S LIKE "WOW! HOW FUN!!!"
 
-*****************************
-Changing the shortcut
-*****************************
-1. You can chnage the shortcut for the Launch-X as per your wish.
-2. you can change that by two methods:
- i) By the shortcut option in the settings menu on the Launch-X App window.
- ii) By right clicking the Lucnh-X icon on the tray and selecting the settings.
+***********************
+DELETING A BUTTON
+***********************
+1.)Click on the 'Remove A Button' button.
+2.) A new window will open caontaining a list of the shortcut buttons you have added sa far. just click on the name of the button you want to remove.
+3.) Launch-x window will reload and the button  will get removed.

@@ -1,4 +1,4 @@
-
+﻿
 #NoEnv
 #SingleInstance, force
 SetWorkingDir %A_ScriptDir%
@@ -13,4 +13,3 @@ return
 
 GuiClose:
 ExitApp
-

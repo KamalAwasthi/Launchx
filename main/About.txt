@@ -1,4 +1,4 @@
-******************************************************
+**************************************************************************************************
 LAUNCH-X
     -by, KAMAL AWASTHI
 A DIRECT LAUNCHER WITH CUSTOMIZABLE BUTTON FOR YOUR PERSONAL USE
@@ -6,11 +6,9 @@ A DIRECT LAUNCHER WITH CUSTOMIZABLE BUTTON FOR YOUR PERSONAL USE
   I have a lot of fun coding this, and hope you will
   enjoy using it too. Feel free to drop me an email with
   your comments and feedback at: kamalawasthi97 (*a.t*) gmail.com
-********************************************
+**************************************************************************************************
 :HOW TO LAUNCH?
 1)THE DEFAULT SHORTCUT FOR THE APP IS [Ctrl]+[G]
-=======
-1)THE SHORTCUT FOR THE APP IS 
 2)SOME OF THE DEFAULT BUTTONS ARE ALREADY ADDED 
 3)IF YOU WANT TO ADD SOME OF THE SHORTCUT AS PER YOUR REQUIRMENT ,YOU CAN ADD WITH ADD_NEW BUTTON GIVEN AT THE BOTTOM OF THE APP(LEFT TO THE EXIT_APP BUTTON).
 4) WANT TO ADD A SHORCUT TO A FOLDER OR ANY FILE.CHOOSE AS PER YOUR NEED.
@@ -19,15 +17,11 @@ A DIRECT LAUNCHER WITH CUSTOMIZABLE BUTTON FOR YOUR PERSONAL USE
 7)THE NEW BUTTON IS ADDED.
 8)IT'S LIKE "WOW! HOW FUN!!!"
 
-***********************
-   DRAWBACK(S):
-***********************
-1. you can not delete any button once you added one, so please select wisely.
 
 
 **************************************
-EXPECTED IMPROVEMENTS
+RECENT IMPROVEMENTS
 **************************************
-1. The one new Delete Button should be added soon.you can expect it in very near future.In newer version releases.
+1. The All new 'Delete Button' is added. Now you can delete the button(Remove from the Launch-X) and readjust yoour shortcuts.
 
 

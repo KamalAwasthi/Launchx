@@ -1,5 +1,4 @@
-
-/*
+﻿/*
 **************************************************************************************************
 LAUNCH-X-by, KAMAL AWASTHI
 A DIRECT LAUNCHER WITH CUSTOMIZABLE BUTTON FOR YOUR PERSONAL USE
@@ -28,6 +27,9 @@ SetWorkingDir %A_ScriptDir%
 SetBatchLines, -1
 Page = http://www.kamalahktips.blogspot.com
 FileReadLine,current,settings.ini,2
+FileReadLine,current1,settings.ini,3
+FileReadLine,current2,settings.ini,4
+FileReadLine,current3,settings.ini,5
 Hotkey,%current%,ShowGui,On
 
 /*
@@ -64,6 +66,7 @@ Menu, FileMenu, Add, &Exit, MenuExit
 Menu, HelpMenu, Add, &Help, HelpAbout
 Menu, HelpMenu, Add, &Online Help,help
 Menu,SettingsMenu,Add,&Shortcut,Settings
+Menu,SettingsMenu,Add,&Delete_All,Delete_All
 
 ; Create the menu bar by attaching the sub-menus to it:
 Menu, MyMenuBar, Add, &Menu, :FileMenu
@@ -72,7 +75,6 @@ MENU, MyMenuBar, Add, &Settings, :SettingsMenu
 
 ; Attach the menu bar to the window:
 Gui, Menu, MyMenuBar
-
 
 ;Menu,logo.png,,1
 Menu, Tray, Icon,,,1
@@ -96,16 +98,7 @@ Gui, 2:Add,Text, x20 y160 w400 h20 ghome ,Launchx Home
 Gui, 2:Font, S10 CBlue,  Verdana 
 Gui, 2:Add, Button,x300 y100 gSave,&Save
 
-;************************************
-;folder/file selection gui
-;************************************
 
-=======
-;set tray icon
-Menu, Tray, Tip, Launch-X by Kamal Awasthi
-Menu, Tray, Icon,,,1
-
->>>>>>> e2366c2e76c1c5e7e470238060a5e575663d0c55
 
 
 /*
@@ -133,23 +126,17 @@ Menu, Tray, Add, Quit, quit
 
 Gui, Color,D1F1A0 
  WinSet, Transparent, 190
-
-
-Loop, Read, path.txt                                        ;LOOP TO READ THE BUTTON FILE
+Loop, Read, path%current1%.ka                                           ;LOOP TO READ THE BUTTON FILE
 {
     Array.Insert(A_LoopReadLine) 
 }
 
 
-Loop, Read,run.ka                                          ;LOOP TO READ THE PATH FILE
-
-Loop, Read,run.txt                                       ;LOOP TO READ THE PATH FILE
+Loop, Read,run%current1%.ka                                          ;LOOP TO READ THE PATH FILE
 {
   Path.Insert(A_LoopReadLine)
 }
 
-;Gui, Add, Picture, w80 h-1,..\Logo\logo.png ;ADDING A PIC ON WINDOW
-;Gui, 2:Font, CBlue,  Verdana 
 gui, font, s10 CBlue, Verdana                                                              ;SETTING THE FONT
 
 for index, element in Array                                         ;ADDING THE BUUTONS ON WINDOW
@@ -170,11 +157,13 @@ y_axis:=y_axis+45
 
  count:=count+1
 }
-temp:=y_axis+45 
+temp:=y_axis+60 
+Gui,Add,Button,x20 y%temp% w210 h30 cWhite gDelete ,&Remove A Button                  ;ADDING THE +ADD BUTTON
+;Gui,Add,Button,X130 Y%temp% w100 h30 CBlue,&Delete_All   
+temp:=y_axis+45+60
 Gui,Add,Button,x20 y%temp% w100 h30 cWhite ,Add_New                  ;ADDING THE +ADD BUTTON
 Gui,Add,Button,X130 Y%temp% w100 h30 CBlue,&Exit_App                 ;ADDING THE CLOSE BUTTON
 Gui,Show,w250,Launch-X ;PUTS ALL GUI ON WINDOW
-
 return
 
 /*
@@ -219,8 +208,24 @@ GuiControl,2:,hotkey,%current%
 Gui, 2:Show, w400 h200, New Shortcut
 return
 
+Delete_All:
+FileDelete,path%current1%.ka
+FileDelete,run%current1%.ka
+Reload
+return
+
 Save:
 Run,launch.exe
+Reload
+return
+
+Delete:
+Run,delete.ahk
+return
+
+ButtonDelete_All:
+FileDelete,path%current1%.ka
+FileDelete,run%current1%.ka
 Reload
 return
 
@@ -417,12 +422,12 @@ return
 (
 %OutputVar% 
 
-), path.ka
+), path%current1%.ka
 FileAppend,
 (
 %Path%
  
-),run.ka
+),run%current1%.ka
 Reload
 return
 
@@ -438,14 +443,14 @@ FileAppend,
 (
 %OutputVar% 
 
-), path.ka
+), path%current1%.ka
 
 
 FileAppend,
 (
 %Path%
  
-),run.ka
+),run%current1%.ka
 Reload
 return
 
@@ -469,18 +474,13 @@ FileAppend,
 (
 %OutputVar% 
 
-<<<<<<< HEAD
 ), path.ka
-=======
-), path.txt
->>>>>>> e2366c2e76c1c5e7e470238060a5e575663d0c55
 
 
 FileAppend,
 (
 %Path%
  
-<<<<<<< HEAD
 ),run.ka
 Reload
 return
@@ -628,10 +628,3 @@ SetBtnTxtColor(HWND, TxtColor) {
       DllCall("Kernel32.dll\FreeLibrary", "Ptr", GDIPDll)
    Return
 }
-=======
-), run.txt
-
-MsgBox You added a new a button. Find it, next time you launch the "launcX"
-ExitApp
-return
->>>>>>> e2366c2e76c1c5e7e470238060a5e575663d0c55
