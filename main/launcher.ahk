@@ -20,7 +20,6 @@ WRITTEN ON AUTOHOTKEY SCRIPT
 8)IT'S LIKE "WOW! HOW FUN!!!"
 **************************************************************************************************
 */
-
 #NoEnv
 #SingleInstance, force
 SetWorkingDir %A_ScriptDir%
