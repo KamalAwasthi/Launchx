@@ -3,7 +3,6 @@
 gui, font, s10, Verdana 
 Gui,Add,Text,, DOUBLE CLICK to Remove
 Gui, Add, ListView, r20 w170 gMyListView,FileName
-
 /*
 *************************
 Redading the INI File
