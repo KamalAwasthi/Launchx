@@ -7,7 +7,7 @@ Hotkey,%current%,ShowGui,On
 return
 
 ShowGui:
-Run,launcher(auto).ahk
+Run,launcher.ahk
 return
 
 GuiClose:
