@@ -28,3 +28,10 @@ Follow my Blog: [KamalAhkTips](http://kamalahktips.blogspot.in/)
 2. Along with a custom button to add some new shortcuts as per your need.
 3. Launches with a shortcut [winKey]+[n]. PLZ go through Read_me_First.txt file before having fun with Launch-X
 
+## Screenshots
+![alt text](https://github.com/KamalAwasthi/Launchx/blob/master/screenshots/launch.png?raw=true "Logo Title Text 1")
+
+![alt text](https://github.com/KamalAwasthi/Launchx/blob/master/screenshots/shortcut.png?raw=true "Logo Title Text 1")
+
+
+
